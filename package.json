@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "moreno97.github.io",
   "private": true,
   "description": "A simple portfolio for developers",
   "version": "0.1.1",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "Antonio <amorenovalls@gmail.com>",
   "homepage": ".",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -36,8 +36,7 @@
   },
   "keywords": [
     "gatsby",
-    "portfolio",
-    "developer"
+    "portfolio"
   ],
   "license": "MIT",
   "scripts": {
@@ -62,9 +61,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
-  },
-  "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "git@github.com:Moreno97/gatsby-portfolio-dev"
   }
 }
