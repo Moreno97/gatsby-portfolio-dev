@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://gatsby-portfolio-dev.netlify.com/* https://moreno97dev.site 301!
