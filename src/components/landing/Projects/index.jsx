@@ -6,42 +6,42 @@ import forkIcon from "Static/icons/fork.svg";
 import { Wrapper, Grid, Item, Content, Stats } from "./styles";
 
 export const Projects = () => {
-  // const {
-  //   github: {
-  //     repositoryOwner: {
-  //       repositories: { edges }
-  //     }
-  //   }
-  // } = useStaticQuery(graphql`
-  //   {
-  //     github {
-  //       repositoryOwner(login: "smakosh") {
-  //         repositories(
-  //           first: 8
-  //           orderBy: { field: STARGAZERS, direction: DESC }
-  //         ) {
-  //           edges {
-  //             node {
-  //               id
-  //               name
-  //               url
-  //               description
-  //               stargazers {
-  //                 totalCount
-  //               }
-  //               forkCount
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
+  const {
+    github: {
+      repositoryOwner: {
+        repositories: { edges }
+      }
+    }
+  } = useStaticQuery(graphql`
+    {
+      github {
+        repositoryOwner(login: "moreno97") {
+          repositories(
+            first: 4
+            orderBy: { field: STARGAZERS, direction: DESC }
+          ) {
+            edges {
+              node {
+                id
+                name
+                url
+                description
+                stargazers {
+                  totalCount
+                }
+                forkCount
+              }
+            }
+          }
+        }
+      }
+    }
+  `);
   return (
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
       <Grid>
-        {/* {edges.map(({ node }) => (
+        {edges.map(({ node }) => (
           <Item
             key={node.id}
             as="a"
@@ -66,7 +66,7 @@ export const Projects = () => {
               </Stats>
             </Card>
           </Item>
-        ))} */}
+        ))}
       </Grid>
     </Wrapper>
   );

@@ -31,6 +31,7 @@ export const Details = styled.div`
     margin-bottom: 2rem;
     font-size: 36pt;
     color: #212121;
+    font-family: "Open Sans";
 
     @media (max-width: 680px) {
       font-size: 30pt;

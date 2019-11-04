@@ -6,7 +6,6 @@ import { Wrapper } from "./styles";
 
 const Navbar = () => (
   <Wrapper as={Container}>
-    <Link to="/">Antonio Moreno</Link>
     <NavbarLinks desktop />
   </Wrapper>
 );
