@@ -11,10 +11,5 @@ export default new Typography({
     "Arial",
     "sans-serif"
   ],
-  bodyFontFamily: ["Georgia", "serif"],
-  googleFonts: [
-    {
-      name: "Roboto"
-    }
-  ]
+  bodyFontFamily: ["Georgia", "serif"]
 });
